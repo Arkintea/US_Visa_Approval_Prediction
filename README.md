@@ -83,7 +83,8 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 	
 ### 3. Create ECR repo to store/save docker image
 
-- Save the URI: public.ecr.aws/c0r7v1m4/us_visa_approval_prediction
+- Save the URI: 058264250048.dkr.ecr.us-east-1.amazonaws.com/usvisa
+- repo name: "usvisa"
 	
 ### 4. Create EC2 machine (Ubuntu)
 
@@ -109,6 +110,5 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
    - AWS_ACCESS_KEY_ID
    - AWS_SECRET_ACCESS_KEY
    - AWS_DEFAULT_REGION
-   - ECR_REPO = "us_visa_approval_prediction"
+   - ECR_REPO = "usvisa"
 
-    
